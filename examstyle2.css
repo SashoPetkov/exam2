@@ -1,0 +1,158 @@
+@font-face {
+    font-family: "Jockey One";
+    src: url("https://fonts.gstatic.com/s/jockeyone/v6/8Hj8G_JpSADPYrRpzMno2gzyDMXhdD8sAj6OAJTFsBI.woff2");
+}
+@font-face {
+    font-family: "Iceland";
+    src: url("https://fonts.gstatic.com/s/iceland/v5/3MJCdMdmaSZmdrTD7pNyygLUuEpTyoUstqEm5AMlJo4.woff2");
+}
+
+#wrapper {
+    font-size: 20px;
+    font-family: "Jockey One",sans-serif;
+    max-width: 1260px;
+    background: #f5f5f5;
+}
+body {
+    width: 1260px;
+    background: #f5f5f5;
+}
+h1, header li {
+    font-family: "Iceland";
+}
+        /*HEADER*/
+header {
+    background: black;
+    color: yellow;
+    width: 1260px;
+    height: 60px;
+    position: fixed;
+    z-index: 1;
+}
+header li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 26px;
+}
+header li:first-of-type {
+    border-bottom: 3px solid yellow;
+    padding-bottom: 11px; 
+}
+h1 {
+    float: left;
+    font-size: 50px;
+    margin: 0 0 0 16.67%;
+}
+h1:after {
+    clear: both;
+}
+header ul {
+    display: inline-block;
+    margin-top: 18px;
+    margin-right: 16.67%;
+    float: right;
+    height: 100%;
+}
+header ul:after {
+    clear: both;
+}
+li:hover {
+    cursor: pointer;
+}
+
+        /*MAIN*/
+main {
+    width: calc(1260px / 6 * 4);
+    margin: 0 auto; 
+    background: white;
+    position: relative;
+}
+section > img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 20px;
+    margin-top: 80px;
+}
+section:first-of-type {
+    margin-bottom: 20px;
+
+
+}
+article > img {
+    width: 120px;
+    height: 120px;
+    margin-left: 20px;
+}
+article > div > h2 {
+    vertical-align: top;
+    font-size: 30px;
+    color: green;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+article > div > p  {
+    width: 100%;
+    margin: 0;
+}
+article {
+    display: inline-block;
+    width: 48%;
+    height: auto;
+    margin-bottom: 30px;
+}
+article:nth-of-type(1), article:nth-of-type(3) {
+    margin-right: 20px;
+}
+.noone {
+    display: inline-block;
+    width: calc(100% - 154px);
+    vertical-align: top;
+    margin-left: 10px;
+}
+        /* FOOTER */
+
+footer {
+    padding-top: 20px;
+    width: 1260px;
+    background: black;
+    padding-bottom: 5px;
+    position: relative;
+}
+footer li {
+    margin-left: 14.67%;
+    color: yellow;
+    list-style-type: none;
+}
+footer p {
+    margin-left: 17.2% !important;
+    color: white;
+    font-size: 14px;
+    margin: 30px 0 15px 40px;
+}
+.social {
+    display: inline-block;
+    float: right;
+    position: relative;
+    bottom: 150px;
+    right: 240px;
+}
+.social:after {
+    clear: both;
+}
+.social > img {
+    margin-left: 20px;
+    width: 20px;
+}
+footer ul {
+    margin-top: 0;
+}
+
+
+
+
+
+
+
+
